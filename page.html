@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    height: 200px;
+    width: 100vw;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+a{
+
+    color: brown;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    position: relative;
+    padding: 10px 0px;
+}
+a:after{
+
+    content: "";
+    height: 5px;
+    width: 0%;
+    background-color: black;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transition: all 01s linear o.1s;
+}
+a:hover::after{
+
+    width: 100%;
+}
+
+
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <a href="#">Home</a>
+        <a href="#">Online</a>
+        <a href="#">Offline</a>
+        <a href="#">About Us</a>
+
+    </header>
+</body
+>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+
+
+nav{
+                background-color: red;
+                /* display: flex; */
+                color: black;
+                flex-direction: column;
+                align-items: center;
+                justify-content: space-evenly;
+
+            }
+
+/*mobile*/
+        @media screen and (max-width : 400px) {
+            nav{
+                background-color: pink;
+                /* display: flex; */
+                color: black;
+                flex-direction: column;
+            }
+
+            }
+/*laptop*/
+            @media screen and (min-width : 401px) and (max-width: 600px) {
+            nav{
+                background-color: yellow;
+                /* display: flex; */
+                color: black;
+                flex-direction: column;
+                
+
+            }
+            
+        }
+    </style>
+</head>
+<body>
+    <nav>home</nav>
+    <nav>Team</nav>
+    <nav>Task</nav>
+    <nav>Search</nav>
+    <nav>About</nav>
+    <nav>contact</nav>
+    <nav>Your Boss</nav>
+
+</body>
+</html>
